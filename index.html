@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joice C J | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Orbitron&family=Tangerine:wght@400;700&family=Inter:wght@100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+        <symbol id="arrow" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+        </symbol>
+    </svg>
+
+    <div id="loader">
+        <div class="logo">CJ</div>
+        <div class="loading-text">PLEASE WAIT...</div>
+    </div>
+
+    <header class="navbar" id="navbar">
+        <button class="hamburger" id="hamburger" type="button" aria-label="Navigation Menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="navlinks">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+        <a href="resume.html" class="resume">RESUME<span><svg width="16" height="16" fill="currentColor">
+                    <use href="#arrow" />
+                </svg></span></a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">
+            <i class="fa-solid fa-sun"></i>
+        </button>
+        <div class="logo-main">CJ</div>
+    </header>
+    <div class="menu" id="mobile-menu">
+        <button class="close" id="close-menu" type="button" aria-label="Close Navigation Menu">
+            &times;
+        </button>
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+        <a href="resume.html">RESUME</a>
+    </div>
+    <div class="main-container">
+        <section class="panel" id="home">
+            <div class="intro">
+                <div class="text">
+                    <h1 class="typing">Hi, Welcome</h1>
+                    <h1 class="name">I'm Joice</h1>
+                    <h2>Web Developer</h2>
+                    <p>I build responsive and user-friendly websites.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/JoiceCJ" aria-label="Github Profile" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/joicecj/" aria-label="LinkedIn Profile" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:joicecj@gmail.com" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <img class="image" src="profile.jpg" alt="profile picture" loading="lazy" />
+            </div>
+        </section>
+
+        <section class="panel" id="about">
+            <h1>ABOUT ME</h1>
+            <div class="about">
+                <div class="about-text">
+                    <p>
+                        I'm passionate about building new websites, and enjoy trying out
+                        new websites using different techniques. I'm always eager to learn
+                        new methods so that I can grow and challenge myself with new
+                        opportunities. I believe in improving myself, attention to detail
+                        when making new designs and creating a website which is different.
+                    </p>
+                </div>
+                <div class="education">
+                    <h1>Education</h1>
+                    <p>BCA (Data Science)- Amity University, Noida</p>
+                </div>
+            </div>
+
+            <section class="skills" id="skills">
+                <div id="myskills">
+                    <h1>My Skills</h1>
+                    <p>Technologies and Tools I use</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-html5-plain colored"></i>
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>HTML</h3>
+                                <p>For building structured and semantic webpages.</p>
+                                <span class="tag">Frontend</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-css3-plain colored"></i>
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>CSS</h3>
+                                <p>For creating beautiful and responsive designs.</p>
+                                <span class="tag">Styling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-javascript-plain colored"></i>
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>JavaScript</h3>
+                                <p>Adding interactivity to the webpages.</p>
+                                <span class="tag">Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-python-plain colored"></i>
+                                <h3>Python</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Python</h3>
+                                <p>For AI and Programming.</p>
+                                <span class="tag">Programming</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-react-original colored"></i>
+                                <h3>React</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>React</h3>
+                                <p>For building reusable and interactive UI components.</p>
+                                <span class="tag">Library</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-tailwindcss-original colored"></i>
+                                <h3>Tailwind CSS</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Tailwind CSS</h3>
+                                <p>Designing modern websites.</p>
+                                <span class="tag">Styling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-bootstrap-plain colored"></i>
+                                <h3>Bootstrap</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Bootstrap</h3>
+                                <p>For designing and styling websites.</p>
+                                <span class="tag">Styling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skillscard">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="devicon-github-original"></i>
+                                <h3>Git and GitHub</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Git and GitHub</h3>
+                                <p>Managing projects and tracking changes.</p>
+                                <span class="tag">Tools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="panel" id="projects">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div>
+                        <div class="card-front">
+                            <h3>Project1</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>project details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <div class="card-front">
+                            <h3>Project2</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>project details</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <div class="card-front">
+                            <h3>Project3</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>project details</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel" id="contact">
+            <h1>Contact</h1>
+            <div class="contact">
+                <div class="contact-social">
+                    <h2>SOCIAL</h2>
+                    <a href="https://instagram.com/joicecj" target="_blank" rel="noopener noreferrer">Instagram
+                        <span><svg width="16" height="16" fill="currentColor">
+                                <use href="#arrow" />
+                            </svg></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/joicecj/" target="_blank" rel="noopener noreferrer">LinkedIn
+                        <span><svg width="16" height="16" fill="currentColor">
+                                <use href="#arrow" />
+                            </svg></span>
+                    </a>
+                </div>
+                <div class="contact-form">
+                    <h2>EMAIL</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter your email" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5"
+                                placeholder="Please enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>CJ</h2>
+                    <p>Designed and Developed by Joice C J</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT</a>
+                    <a href="#projects">PROJECTS</a>
+                    <a href="#contact">CONTACT</a>
+                </div>
+                <div class="footer-copy">
+                    <div class="social-icons">
+                        <a href="https://github.com/JoiceCJ" aria-label="Github Profile"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/joicecj/" aria-label="LinkedIn Profile"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:joicecj@gmail.com" aria-label="Gmail"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <p>&copy; 2026 Joice C J. All Rights Reserved</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
