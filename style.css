@@ -487,6 +487,67 @@ body {
   perspective: 1000px;
 }
 
+.project-card .card-inner{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s ease;
+}
+.project-card:hover .card-inner{
+  transform: rotateY(180deg);
+}
+.project-card .card-front,
+.project-card .card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  text-align: center;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+}
+.project-card .card-front{
+  color: var(--accent-color);
+}
+.project-card .card-back{
+  transform: rotateY(180deg);
+  color: var(--text-color);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 15px var(--accent-color);
+}
+.card-front h3,
+.card-back h3{
+  color: var(--accent-color);
+  font-family: "Orbitron",sans-serif;
+  margin-bottom: 1rem;
+}
+.card-front p,
+.card-back p{
+  color: var(--secondary-text);
+  line-height: 1.6;
+}
+.project-card .card-back a{
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  border: 1px solid var(--accent-color);
+  border-radius: 2rem;
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.project-card .card-back a:hover{
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}
 #contact {
   padding: 5rem 10%;
 }
